@@ -1,0 +1,41 @@
+
+
+.gallery_component{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    .description_section{
+        width: 60%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+        h4{
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 400;
+            color: #333;
+            padding: 0;
+            margin: 0;
+        }
+        p {
+            font-size: 16px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 300;
+            color: #555;
+            padding: 0;
+            margin: 0;
+        }
+    }
+    .products_section{
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+}

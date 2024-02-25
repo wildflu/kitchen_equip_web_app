@@ -1,13 +1,11 @@
 
 @import url('./presontation/components/navs/header/header.scss');
-
-
-
-
-
-
-
-
+@import url('./presontation/pages/home_page/home_page.scss');
+@import url('./presontation/components/tempates/introduction_component/introduction_component.scss');
+@import url('./presontation/components/widgets/button/button.scss');
+@import url('./presontation/components/tempates/about_component/about_component.scss');
+@import url('./presontation/components/tempates/gallery_component/gallery_component.scss');
+@import url('./presontation/components/cards/equipment_card/equipment_card.scss');
 
 
 :root {
@@ -17,7 +15,6 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  /* background-color: #242424; */
   background-color: #FFFF;
 
   font-synthesis: none;
