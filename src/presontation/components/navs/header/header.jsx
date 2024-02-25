@@ -1,15 +1,26 @@
 
 import { Link } from "react-router-dom";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 function Header() {
-
+    const [scrolled, setScrolled] = useState(false);
     const [activeRoute, setActiveRoute] = useState(0)
 
-
+    useEffect(() => {
+        const handleScroll = () => {
+            const isScrolled = window.scrollY > 0;
+            if (isScrolled !== scrolled) {
+                setScrolled(isScrolled);
+            }
+        };
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, [scrolled]);
 
     return(
-        <header className="header_nav" style={{boxShadow: "1px 1px 5px #555"}}>
+        <header className="header_nav" style={{boxShadow: scrolled?"1px 1px 5px #555":"none"}}>
             <label className="logo">Kitchen Equips</label>
             <nav className="header_routes">
                 <Link onClick={()=> setActiveRoute(0)} className="header_link" to="/">Home <span className={activeRoute ===0?"notifier_route":"active_route"}></span></Link>
