@@ -11,7 +11,7 @@
 @import url('./presontation/components/tempates/stay_updated/stay_updated.scss');
 @import url('./presontation/components/tempates/contact_component/contact_component.scss');
 @import url('./presontation/components/navs/footer/footer.scss');
-
+@import url('./presontation/pages/products_page/products.scss');
 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
