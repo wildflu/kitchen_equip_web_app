@@ -1,0 +1,98 @@
+
+@import '../../../../consts/theme.scss';
+
+.stay_updated_component{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    .stay_updated_profile_section{
+        width: 35%;
+        height: 80%;
+        border: 3px solid $PrimaryColor;
+        box-sizing: border-box;
+        padding: 10px;
+        border-radius: 100%;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        img {
+            width: 100%;
+            height: 100%;
+            border-radius: 100%;
+        }
+    }
+
+    .stay_updated_info{
+        width: 50%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: end;
+        gap: 20px;
+        h4, p, span {
+            padding: 0;
+            margin: 0;
+        }
+        h4{
+            font-weight: 500;
+            font-size: 17px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: $PrimaryColor;
+        }
+        p {
+            font-weight: 300;
+            font-size: 13px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: $PrimaryTextColor;
+        }
+        .form_sub{
+            width: 100%;
+            height: 40px;
+            display: flex;
+            flex-direction: row;
+            gap: 5px;
+            input {
+                width: 70%;
+                height: 100%;
+                padding: 0;
+                outline: none;
+                border-radius: 30px;
+                border: none;
+                background-color: whitesmoke;
+                padding-left: 20px;
+            }
+            button {
+                width: 30%;
+                height: 100%;
+                background-color: $PrimaryColor;
+                outline: none;
+                border-radius: 30px;
+                color: $PrimaryBackGround;
+                font-size: 14px;
+            }
+        }
+        .terms_section{
+            display: flex;
+            width: 80%;
+            align-items: start;
+            gap: 10px;
+            .radio-group {
+                color: red;
+                display: inline-block;
+                width: 15px;
+                height: 15px;
+                border-radius: 50%;
+                position: relative;
+            }
+            label {
+                font-size: 13px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            
+        }
+    }
+
+}
