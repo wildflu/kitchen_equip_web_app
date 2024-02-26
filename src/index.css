@@ -6,6 +6,11 @@
 @import url('./presontation/components/tempates/about_component/about_component.scss');
 @import url('./presontation/components/tempates/gallery_component/gallery_component.scss');
 @import url('./presontation/components/cards/equipment_card/equipment_card.scss');
+@import url('./presontation/components/tempates/reviews_component/reviews_component.scss');
+@import url('./presontation/components/cards/review_card/review_card.scss');
+
+
+
 
 
 :root {

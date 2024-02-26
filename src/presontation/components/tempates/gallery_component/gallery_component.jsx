@@ -1,5 +1,5 @@
 import EquipmentCard from "../../cards/equipment_card/equipment_card";
-
+import TheButton from '../../widgets/button/button'
 
 function GalleryComponent() {
     return(
@@ -21,6 +21,7 @@ function GalleryComponent() {
                 <EquipmentCard />
                 <EquipmentCard />
             </section>
+            <TheButton />
         </div>
     )
 }
