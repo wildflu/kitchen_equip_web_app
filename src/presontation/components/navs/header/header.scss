@@ -59,4 +59,12 @@
             }
         }
     }
+    .progress-bar{
+        position: fixed;
+        top: 70px;
+        height: 3px;
+        background-color: $PrimaryColor;
+        left: 0;
+        right: 0;
+    }
 }

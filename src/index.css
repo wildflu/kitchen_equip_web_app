@@ -12,6 +12,16 @@
 @import url('./presontation/components/tempates/contact_component/contact_component.scss');
 @import url('./presontation/components/navs/footer/footer.scss');
 @import url('./presontation/pages/products_page/products.scss');
+@import url('./presontation/pages/contact_page/contact_page.scss');
+@import url('./presontation/pages/reviews_page/reviews_page.scss');
+@import url('./presontation/pages/faq_page/faq_page.scss');
+@import url('./presontation/components/cards/faq_card/faq_card.scss');
+
+
+
+
+
+
 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
