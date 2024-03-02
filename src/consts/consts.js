@@ -1,2 +1,0 @@
-
-export const publicKey = 'pk_test_51OpvdQB6ZvuKY89ajcXrIHqHvIKRHijcTqdsPm6KEyGmxts8FcCHBtvxN6QevPdL14nHkAIwL9sWjFrDvHa9q10800BJj8t36I';
