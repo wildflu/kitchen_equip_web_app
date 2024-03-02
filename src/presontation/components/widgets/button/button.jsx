@@ -1,10 +1,16 @@
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCaretRight } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
-function TheButton() {
+function TheButton(props) {
     return (
-        <button className="btn_find_all">Find All <span className="icon_btn_find_all"><FontAwesomeIcon icon={faCaretRight} /></span></button>
+        <Link className="btn_find_all" to={props.to}>
+            {props.label} 
+            <span className="icon_btn_find_all">
+                <FontAwesomeIcon icon={faCaretRight} />
+            </span>
+        </Link>
     )
 }
 export default TheButton;

@@ -7,6 +7,7 @@ import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import Data from '../.././../../consts/data';
 
 function Header() {
+
     const [activeRoute, setActiveRoute] = useState(0)
     const [scrolled, setScrolled] = useState(false);
     const [scrollPercentage, setScrollPercentage] = useState(0);
@@ -45,7 +46,7 @@ function Header() {
 
     return(
         <header className="header_nav" style={{boxShadow: scrolled?"1px 1px 5px #555":"none"}}>
-            <label className="logo">Kitchen Equips</label>
+            <label className="logo">Kitcheno <span style={{color: '#ab38d9', fontWeight:'300' }}>wildflu</span> </label>
             <nav className="header_routes">
                 <Link onClick={()=> setActiveRoute(0)} className="header_link" to="/">Home <span className={activeRoute ===0?"notifier_route":"active_route"}></span></Link>
                 <Link onClick={()=> setActiveRoute(1)} className="header_link" to="/products">Products <span className={activeRoute ===1?"notifier_route":"active_route"}></span></Link>

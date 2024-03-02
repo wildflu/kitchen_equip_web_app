@@ -17,7 +17,7 @@ function AboutComponent() {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea explicabo totam molestiae, 
                     ipsum sunt odit earum accusamus quam consectetur laudantium.
                 </p>
-                <TheButton />
+                <TheButton label="Know More"/>
             </section>
 
         </div>

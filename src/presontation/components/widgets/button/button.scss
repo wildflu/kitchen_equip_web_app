@@ -4,7 +4,7 @@
 
 .btn_find_all{
     width: 170px;
-    height: 45px;
+    min-height: 45px;
     background: none;
     border: $PrimaryColor 2px solid;
     border-radius: 30px;
@@ -17,7 +17,7 @@
     outline: none;
     transition: border 1s;
     color: $PrimaryColor;
-    justify-content: space-between;
+    justify-content: space-evenly;
     
     &:hover {
         border: $PrimaryBackGround 2px solid;

@@ -7,8 +7,8 @@ import ContactPage from "./presontation/pages/contact_page/contact_page"
 import ReviewsPage from "./presontation/pages/reviews_page/reviews_page"
 import FaqPage from "./presontation/pages/faq_page/faq_page"
 import ShoppingBag from "./presontation/pages/shop_bag/shop_bag"
-import { loadStripe } from '@stripe/stripe-js';
-import { publicKey } from "./consts/consts"
+
+
 function App() {
 
   return (

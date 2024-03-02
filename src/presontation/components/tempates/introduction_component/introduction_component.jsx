@@ -10,7 +10,7 @@ function IntroductionComponent(){
                 <p>
                     Lorem ipsum dolor sit amet consectetur, adipisicing consectetur, adipisicing elit. Odio, recusandae.
                 </p>
-                <TheButton />
+                <TheButton label='Know More'/>
             </section>
             <section className="image_intoduction">
                 <img src={kitchen} alt="" />

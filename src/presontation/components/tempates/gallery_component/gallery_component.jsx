@@ -1,7 +1,11 @@
+import Data from "../../../../consts/data";
 import EquipmentCard from "../../cards/equipment_card/equipment_card";
 import TheButton from '../../widgets/button/button'
 
+
 function GalleryComponent() {
+    const data = Data.allEquipments.slice(0, 8);
+
     return(
         <div className="gallery_component">
             <section className="description_section">
@@ -12,16 +16,19 @@ function GalleryComponent() {
                 </p>
             </section>
             <section className="products_section">
-                <EquipmentCard />
-                <EquipmentCard />
-                <EquipmentCard />
-                <EquipmentCard />
-                <EquipmentCard />
-                <EquipmentCard />
-                <EquipmentCard />
-                <EquipmentCard />
+                {data.map(equipment => (
+                    <EquipmentCard 
+                            key={equipment.id} 
+                            img={equipment.img} 
+                            name={equipment.name} 
+                            price={equipment.price} 
+                            oldprice={equipment.oldprice} 
+                            catigury = {equipment.catigury} 
+                            id={equipment.id}
+                        />
+                ))}
             </section>
-            <TheButton />
+            <TheButton label='Find All' to='/products'/>
         </div>
     )
 }

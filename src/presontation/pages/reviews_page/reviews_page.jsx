@@ -14,7 +14,7 @@ function ReviewsPage(){
                     Praesentium architecto commodi ea distinctio quaerat. Quaerat et harum 
                     rerum aliquid placeat, obcaecati at voluptas iusto, fuga repellat alias eius aliquam autem.
                 </p>
-                <TheButton />
+                <TheButton label='Give us Review'/>
             </div>
             <div className="reviews_cads">
                 <ReviewCard />

@@ -11,8 +11,6 @@ import { publicKey } from "../../../consts/consts";
 function ShoppingBag() {
     const [myBag, setMyBag] = useState(Data.MyBag);
 
-    const [isLoading, setIsLoading] = useState(false);
-    const [error, setError] = useState(null);
 
     const handleCheckout = async () => {
         try {

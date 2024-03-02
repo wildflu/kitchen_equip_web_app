@@ -15,7 +15,7 @@ function ReviewsComponent() {
                 <ReviewCard />
                 <ReviewCard />
             </div>
-            <TheButton />
+            <TheButton label='Review Us'/>
         </div>
     )
 }
