@@ -43,6 +43,15 @@
                 flex-direction: column;
                 align-items: center;
                 justify-content: start;
+                transition: color 2s;
+                .catigury_marker{
+                    width: 100%;
+                    height: 2px;
+                    background-color: $PrimaryColor;
+                    display: inline-block;
+                    transition: color 2s;
+                    opacity: 0;
+                }
             }
             .carigury_route_active{
                 color: $PrimaryColor;
@@ -50,11 +59,16 @@
                 flex-direction: column;
                 align-items: center;
                 justify-content: start;
+                transition: color 1s;
+
                 .catigury_marker{
                     width: 100%;
                     height: 2px;
                     background-color: $PrimaryColor;
                     display: inline-block;
+                    opacity: 1;
+                    transition: opacity 2s;
+
                 }
             }
         }

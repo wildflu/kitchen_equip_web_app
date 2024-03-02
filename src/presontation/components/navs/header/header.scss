@@ -16,7 +16,7 @@
     padding-left: 10%;
     padding-right: 10%;
     background-color: #FFF;
-    
+    z-index: 100;
     .logo{
         font-size: 25px;
         font-weight: 200;
@@ -56,6 +56,30 @@
                 display: inline-block;
                 border: white 1px solid;
                 box-sizing: border-box;
+            }
+            .icon_bag{
+                // background-color: red;
+                width: 40px;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+                .item_coint{
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    background-color: black;
+                    width: 15px;
+                    height: 15px;
+                    border-radius: 10px;
+                    color: white;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 10px;
+                    font-weight: 600;
+                }
             }
         }
     }
